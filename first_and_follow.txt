@@ -1,0 +1,47 @@
+Computing FIRST of non terminals: 
+FIRST(A) = 	#	c	i	s	
+FIRST(B) = 	c	i	s	
+FIRST(C) = 	c	
+FIRST(D) = 	i	
+FIRST(F) = 	m	
+FIRST(H) = 	m	
+FIRST(I) = 	p	
+FIRST(K) = 	s	
+FIRST(L) = 	*	m	
+FIRST(M) = 	m	
+FIRST(N) = 	#	,	
+FIRST(O) = 	w	
+FIRST(P) = 	m	
+FIRST(Q) = 	m	
+FIRST(R) = 	m	
+FIRST(S) = 	b	h	l	r	
+FIRST(T) = 	#	w	
+FIRST(U) = 	)	,	
+FIRST(V) = 	(	v	
+FIRST(W) = 	#	a	o	
+FIRST(X) = 	#	,	
+FIRST(Z) = 	#	m	
+
+Computing FOLLOW of non terminals: 
+FOLLOW(A) = 	$	
+FOLLOW(B) = 	$	c	i	s	
+FOLLOW(C) = 	$	c	i	s	
+FOLLOW(D) = 	$	c	i	s	
+FOLLOW(F) = 	p	
+FOLLOW(H) = 	m	p	
+FOLLOW(I) = 	)	
+FOLLOW(K) = 	$	c	i	s	
+FOLLOW(L) = 	f	
+FOLLOW(M) = 	;	f	w	
+FOLLOW(N) = 	;	f	w	
+FOLLOW(O) = 	;	
+FOLLOW(P) = 	;	
+FOLLOW(Q) = 	;	a	o	
+FOLLOW(R) = 	)	
+FOLLOW(S) = 	;	a	o	
+FOLLOW(T) = 	;	
+FOLLOW(U) = 	m	
+FOLLOW(V) = 	$	c	i	s	
+FOLLOW(W) = 	;	
+FOLLOW(X) = 	)	
+FOLLOW(Z) = 	p	
